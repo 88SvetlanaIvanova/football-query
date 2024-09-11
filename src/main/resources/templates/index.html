@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Player List</title>
+</head>
+<body>
+<h1>Player List</h1>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Position</th>
+        <th>Team</th>
+    </tr>
+    <tr th:each="player : ${players}">
+        <td th:text="${player.id}"></td>
+        <td th:text="${player.fullName}"></td>
+        <td th:text="${player.position}"></td>
+        <td th:text="${player.team.name}"></td>
+    </tr>
+</table>
+</body>
+</html>
