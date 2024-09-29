@@ -15,3 +15,8 @@ public interface PlayerService {
     void deletePlayer(Player player);
     void deletePlById (Integer id);
 }
+/*
+The PlayerService interface abstracts the business logic associated with Player entities, promoting modularity and 
+separation of concerns within the application architecture.
+It defines the contract for managing player data, offering a structured API for interacting with Player-related functionalities.
+*/
