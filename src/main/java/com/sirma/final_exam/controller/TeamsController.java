@@ -24,3 +24,6 @@ public class TeamsController {
         return teamServicehandler.getAllTeams();
     }
 }
+/*The TeamsController class is responsible for handling HTTP requests related to Team entities.
+It defines endpoints for updating and retrieving Team information.
+The controller class follows the Spring MVC pattern by delegating business logic to the TeamServiceHandler.  */
