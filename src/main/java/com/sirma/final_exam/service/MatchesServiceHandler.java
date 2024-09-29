@@ -54,3 +54,9 @@ public class MatchesServiceHandler implements MatchService{
         matchRepository.deleteById(id);
     }
 }
+/*
+MatchesServiceHandler acts as the implementation class for the MatchService interface, handling CRUD
+operations for Match entities using the MatchRepository for data access.
+The MatchRepository bean is injected into the MatchesServiceHandler class using the @Autowired annotation, 
+enabling data access operations on the Match entities.
+*/
