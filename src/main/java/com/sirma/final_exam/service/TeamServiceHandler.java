@@ -64,3 +64,14 @@ public class TeamServiceHandler implements TeamService {
         teamRepository.findById(id).ifPresent(team -> teamRepository.delete(team));
     }
 }
+/*
+TeamServiceHandler serves as the concrete implementation of the TeamService interface, encapsulating the logic for CRUD operations 
+on Team entities within the application.
+teamRepository: Autowired instance of TeamRepository for handling team data operations.
+LOGGER: Logger instance for logging messages and errors.
+VALID_PATTERN: Regular expression pattern for validating team-related strings.
+ The TeamServiceHandler class utilizes constructor injection to receive the TeamRepository dependency, ensuring that the necessary 
+ repository is provided at object creation.
+ Implements methods for saving, finding, modifying, retrieving all teams, and deleting teams utilizing the TeamRepository for data persistence and retrieval.
+ he modifyTeam method updates an existing team entity with the attributes from the provided teamUpdate object if the team exists in the repository.
+*/
