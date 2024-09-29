@@ -25,3 +25,6 @@ public class MatchesController {
         return matchesServicehandler.getAllMatches();
     }
 }
+/* The MatchesController class provides endpoints for updating and retrieving Match entities. 
+    It follows the MVC pattern by delegating business logic to the MatchesServiceHandler. 
+    The code structure seems clean and concise, following Spring MVC best practices.*/
