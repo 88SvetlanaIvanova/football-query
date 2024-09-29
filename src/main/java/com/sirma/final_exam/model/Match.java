@@ -79,4 +79,6 @@ public class Match {
                 '}';
     }
 
-}
+} /* The class defines fields for the match ID, team IDs, date, and score, along with constructors and getter/setter methods.
+It is annotated with @Entity to mark it as a JPA entity and @Table(name = "matches") to specify the table name in the database.
+*/
