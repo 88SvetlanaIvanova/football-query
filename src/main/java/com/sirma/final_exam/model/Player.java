@@ -84,6 +84,9 @@ public class Player {
     public void setTeamId(Team team) {
         this.team = team;
     }
-
-
-}
+} /*
+The Player class represents a player entity in the system, associated with a team, and includes fields
+such as team number, position, full name, and match records.
+It is annotated with JPA annotations for entity mapping and validation constraints to ensure data integrity.
+The class establishes relationships with other entities, like Team and MatchRecord, using JPA annotations.
+*/
