@@ -107,6 +107,8 @@ public class PlayerServiceHandler implements PlayerService {
     public void deletePlById(Integer id) {
         playerRepo.deleteById(id);
     }
-
-
-}
+} /*
+The PlayerServiceHandler class is a Spring service component that implements the PlayerService interface, 
+providing the implementation for managing Player entities. It handles various CRUD operations 
+for Player entities using the PlayerRepository for data access.
+*/
