@@ -17,3 +17,11 @@ public interface PlayerRepository extends JpaRepository <Player, Integer> {
 
 
 }
+/*
+The PlayerRepository interface extends JpaRepository, which is a part of the Spring Data JPA framework. 
+This interface provides CRUD (Create, Read, Update, Delete) operations for entities.
+It is annotated with @Repository to indicate that it is a Spring-managed repository component.
+
+findByMatchRecordsMatchId(Integer matchId): Declares a custom query method to find a list of players based on a specific match ID.
+This method leverages Spring Data JPA's query derivation mechanism to generate the query based on the method name.
+*/
