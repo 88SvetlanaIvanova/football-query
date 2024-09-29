@@ -39,3 +39,14 @@ public class DataUtils {
         } return true;
     }
 }
+/*
+The DataUtils class encapsulates utility methods for validating and parsing data, specifically focusing on checking strings for validity, 
+parsing dates from various formats, and validating arrays of strings.
+DataUtils class serves as a utility class offering methods for string validation, date parsing, and array element validation.
+All methods in the class are static, allowing them to be accessed without creating an instance of the DataUtils class.
+Regular expression pattern used in the isFaultyString method to determine the validity of a string based on allowed characters.
+
+isFaultyString: Checks if a string contains characters outside the defined pattern.
+parseDate: Parses a date string using various date patterns and returns a LocalDate object.
+areValidString: Validates an array of strings by checking each element for faulty characters based on the isFaultyString method.
+*/
